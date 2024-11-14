@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room - Networking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-page" class="start-page">
+        <div class="start-content">
+            <h1>Benvenuto nell'Escape Room - Networking!</h1>
+            <p>Rispondi a tutte le domande per fuggire.</p>
+            <button id="start-game" class="start-button">Inizia il gioco</button>
+        </div>
+    </div>
+
+    <div id="game-container" class="game-container hidden">
+        <div class="game-info">
+            <h1>Escape Room - Networking</h1>
+            <p id="level-name">Livello 1</p>
+            <p id="timer">Tempo rimanente: <span id="time">01:00</span></p>
+        </div>
+
+        <div id="puzzle-container" class="puzzle-container">
+            <p id="puzzle-question">Domanda...</p>
+            <p id="puzzle-story" class="puzzle-story">Storia...</p>
+            <input type="text" id="answer" placeholder="Risposta">
+            <button id="submit-answer" class="submit-button">Verifica risposta</button>
+        </div>
+
+        <div id="message" class="message"></div>
+        <button id="next-level" class="next-level-button hidden">Vai al livello successivo</button>
+    </div>
+
+    <script src="anello"></script>
+</body>
+</html>
