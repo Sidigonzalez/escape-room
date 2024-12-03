@@ -44,7 +44,6 @@ body {
 }
 
 .game-container {
-    display: none;
     text-align: left;
     background-color: white;
     padding: 30px;
